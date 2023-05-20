@@ -1,3 +1,4 @@
+// general game rules inspired by csc102 class session 5/15/23 
 function restart()
     // Generates two random numbers beween 1 and 10
 {   var number1  = Math.ceil(Math.random() *10);
