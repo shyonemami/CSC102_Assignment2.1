@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title name-->
+    <title>Game</title>
+    <!--styling for h1, h2, body, and button-->
+    <style>
+        h1 {
+            color: gold;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+        h1:hover {
+            color: green;
+            }
+        h2 {
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration-line: underline;
+            }
+        
+        body {
+            background-color: black;
+            text-align: center;
+            color: gold;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+        button {
+            color: green;
+            background-color: gold;
+            font-size: 16pt;
+            cursor: pointer;
+            border-radius: 4px;
+            padding: 20pt;
+        }
+        button:hover {
+            color: gold;
+            background-color: green;
+        }
+
+    </style>
+    <!--Java Script Link, links the external JS file to HTML-->
+    <script src="code.js"></script> 
+</head>
+<body>
+    <!--h1 opening/closing tags w/ header1 text-->
+    <h1>SHYON'S CASINO</h1>
+    <!--h2 opening/closing tags w/ header2 text-->
+    <h2>Lets Play:</h2>
+    <!--game rules, defines how to win-->
+    <p>
+    GAME RULES: The game will select two random numbers between 1 and 10 (number1 and number2).
+    In order to win, both numbers should meet 1 of 2 conditions.
+    <p> 
+    
+    Condition #1: both numbers are even and equal.
+    </p>
+    <p>
+    Condition #2: number2 is 6 or the sum of both numbers is equal to 6
+    </p>
+     <!--button for Play/Restart-->   
+    <button onclick ="restart()">Play / Restart</button>
+    <p>
+    <!--div element for game result, prompts player to begin before the button is clicked-->
+    <div id = "result">Click PLAY to begin</div>
+    </p>
+    <!--div element for number1--> 
+    <div id = "number1">place for number1</div>
+    <!--div element for number2--> 
+    <div id = "number2">place for number2</div>
+
+</body>
+</html>
