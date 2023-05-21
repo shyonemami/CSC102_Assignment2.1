@@ -1,7 +1,9 @@
-// general game rules inspired by csc102 class session 5/15/23 
-function restart()
+// Shyon Seyed-Emami, CSC102 Assignment 2.1
+// General game rules modeled from CSC102 class session 5/15/23 
+function restart() 
     // Generates two random numbers beween 1 and 10
-{   var number1  = Math.ceil(Math.random() *10);
+{   
+    var number1  = Math.ceil(Math.random() *10);
     var number2  = Math.ceil(Math.random() *10);
     // Calculates the sum of two random numbers
     var sum = number1 + number2;
