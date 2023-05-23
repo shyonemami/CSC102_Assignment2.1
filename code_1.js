@@ -2,7 +2,7 @@
 // "playerChoice" perameter inside function to pass down value of playerChoice to rest of function.I got this information online somewhere but source is unknown
 function playGame(playerChoice) {   
     // Define an array of choices
-    var choices = ['rock', 'paper', 'scissors'];
+    var choices = ['rock', 'paper', 'scissors']; 
   
     // Generate a random index to select a choice from the array
     var randomIndex = Math.floor(Math.random() * 3);
